@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogos</title>
+</head>
+<body>
+    <form>
+        <table>
+            <caption>Formulário de cadastro</caption>
+            <tbody>
+                <tr>
+                    <td><label for="text">Nome:</label></td>
+                    <td><input type="text" id="nome" placeholder="Digite aqui seu nome"/></td>
+                </tr>
+                <tr>
+                    <td><label for="email">E-mail:</label></td>
+                    <td><input type="email" placeholder="Digite aqui seu E-mail"/></td>
+                </tr>
+                <tr>
+                    <td><label>Jogos:</label></td>
+                    <hr/>
+                </tr>
+                <tr>
+                    <td><input type="radio" name="jogo_favorito" id="jogo1" checked/><label for="jogo_favorito">Shovel Knight</label></td>
+                </tr>
+                <tr>
+                    <td><input type="radio" name="jogo_favorito" id="jogo2"/><label for="jogo_favorito">Terraria</label></td>
+                </tr>
+                <tr>
+                    <td><input type="radio" name="jogo_favorito" id="jogo3"/><label for="jogo_favorito">OneShot</label></td>
+                </tr>
+                <tr>
+                    <td><input type="radio" name="jogo_favorito" id="jogo4"/><label for="jogo_favorito">Dont Starve</label></td>
+                </tr>
+                <tr>
+                    <td><button id="enviar" type="submit">Enviar</button></td>
+                    <td><button ide="reset" type="reset">Limpar</button></td>
+                </tr>
+            </tbody>
+        </table>
+        <h1>Jogo Favorito!</h1>
+        <label for="text">Informe seu nome:</label><br/>
+        <input type="text" id="nome" placeholder="Digite aqui seu nome"/><br/>
+        <label for="email">Informe seu E-mail:</label><br/>
+        <input type="email" placeholder="Digite aqui seu E-mail"/><br/>
+        <hr/>
+        <label>Jogos:</label><br/>
+        <input type="radio" name="jogo_favorito" id="jogo1" checked/><label for="jogo_favorito">Shovel Knight</label><br/>
+        <input type="radio" name="jogo_favorito" id="jogo2"/><label for="jogo_favorito">Terraria</label><br/>
+        <input type="radio" name="jogo_favorito" id="jogo3"/><label for="jogo_favorito">OneShot</label><br/>
+        <input type="radio" name="jogo_favorito" id="jogo4"/><label for="jogo_favorito">Dont Starve</label><br/>
+        <label>Faça um comentário breve sobre o jogo:</label><br/>
+        <textarea type="textarea" rows="3" placeholder="Comente aqui"></textarea><br/>
+        <button id="enviar" type="submit">Enviar</button>
+        <button ide="reset" type="reset">Limpar</button>
+    </form>
+</body><br/><br/>
+<footer>
+    <hr/>
+    2023© - Todos os direitos reservados</footer>
+</html>
