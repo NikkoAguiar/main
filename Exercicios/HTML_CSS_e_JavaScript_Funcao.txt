@@ -1,0 +1,9 @@
+HTML - O HTML foi a primeira linguagem de marcação que atendeu a um grande número de plataformas para computadores e browsers.
+Sua função, como linguagem de marcação de hipertexto (HyperText Markup Language ou HTML), é estruturar o site, ou seja, montar a estrutura necessária para que outras
+linguagens como CSS e JavaScript possam atuar em conjunto. É possível com o HTML adicionar imagens, tabelas, vídeos, marcadores, parágrafos, quebra de linha, etc.
+
+CSS - CSS é uma linguagem baseada em regras. Cascading Style Sheets (CSS) é uma linguagem de marcação que é responsável pelo visual das páginas web, controlando as cores,
+layouts e fontes dos elementos do seu site. Com o CSS é possivel realizar mudanças pontuais em um componente de um arquivo da web sem comprometer o resto do conteúdo.
+
+JavaScript - O JavaScript permite inserir vários efeitos, fazendo com que o site fique mais dinâmico, principalmente, porque permite ao programador da web melhorar a página
+do site. Ao usar JavaScript, os navegadores passaram a ser capazes de responder a interações do usuário e alterar o layout do conteúdo na página.
