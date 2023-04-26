@@ -1,0 +1,116 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body > header{
+    padding: 16px 0;
+    background-color: #122f2e;
+    color: #d28410;
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header li{
+    display: inline;
+    margin-left: 8px;
+}
+
+header li a{
+    color: bisque;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+
+.container{
+    width: 1366px;
+    margin: 0 auto 0 auto;
+}
+
+.articles{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.articles article img{
+    height: 260px;
+    /* width: 100%; */
+}
+
+.articles article{
+    width: 30%;
+}
+
+section{
+    padding: 16px 0;
+}
+
+section h2, .articles article{
+    margin-bottom: 16px;
+}
+
+.articles article h3{
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.articles article a{
+    background-color: rgb(121, 166, 234);
+    color: aliceblue;
+    text-decoration: none;
+    padding: 8px;
+    display: inline-block;
+    font-weight: 500;
+}
+
+.articles article a:hover{
+    text-decoration: underline;
+}
+
+#sports{
+    background-color: rgba(0, 255, 0, 0.1);
+}
+
+#economy{
+    background-color: #f8f59f;
+}
+
+#economy .articles article a{
+    background-color: #ff9f1a;
+}
+
+#games{
+    background-color: #FF3D3D;
+}
+
+#games .articles article a{
+    background-color: #FF2828;
+}
+
+#cooking{
+    background-color: #DB90BC;
+}
+
+#cooking .articles article a{
+    background-color: #CA2F9B;
+}
+
+#policy{
+    background-color: antiquewhite;
+}
+
+#policy .articles article a{
+    background-color: #FFA03D;
+    color: white;
+}
+
+.articles article img {
+    width: 70%;
+}
