@@ -113,7 +113,7 @@ input:focus, textarea:focus{
 }
 
 .social-links li{
-    display: flex;
+    display: inline;
     margin-right: 8px;
 }
 
