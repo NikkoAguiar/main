@@ -1,0 +1,29 @@
+function tabuada(num){
+    let num1 = prompt("Informe o valor da tabuada: ");
+    let num2 = prompt("Informe o tamanho da tabuada: ");
+
+    console.log(`Eis a tabuada de ${num1} até ${num2}: `)
+
+    for(let i = 1; i <= num2; i++){
+        console.log(`${num1} X ${i} = ${num1 * i}`);
+    }
+}
+
+let num;
+
+tabuada(num);
+Eis a tabuada de 7 até 14: 
+7 X 1 = 7
+7 X 2 = 14
+7 X 3 = 21
+7 X 4 = 28
+7 X 5 = 35
+7 X 6 = 42
+7 X 7 = 49
+7 X 8 = 56
+7 X 9 = 63
+7 X 10 = 70
+7 X 11 = 77
+7 X 12 = 84
+7 X 13 = 91
+7 X 14 = 98
