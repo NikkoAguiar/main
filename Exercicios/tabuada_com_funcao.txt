@@ -1,3 +1,5 @@
+//Em for
+
 function tabuada(num){
     let num1 = prompt("Informe o valor da tabuada: ");
     let num2 = prompt("Informe o tamanho da tabuada: ");
@@ -27,3 +29,63 @@ Eis a tabuada de 7 até 14:
 7 X 12 = 84
 7 X 13 = 91
 7 X 14 = 98
+-------------------------------------------------------------
+//Em while
+
+function tabuada(num){
+    let num1 = prompt("Informe o valor da tabuada: ");
+    let num2 = prompt("Informe o tamanho da tabuada: ");
+    let i = 1;
+
+    console.log(`Eis a tabuada de ${num1} até ${num2}: `)
+
+    while(i <= num2){
+        console.log(`${num1} X ${i} = ${num1 * i}`);
+        i++
+    }
+}
+
+let num;
+
+tabuada(num);
+Eis a tabuada de 5 até 10: 
+5 X 1 = 5
+5 X 2 = 10
+5 X 3 = 15
+5 X 4 = 20
+5 X 5 = 25
+5 X 6 = 30
+5 X 7 = 35
+5 X 8 = 40
+5 X 9 = 45
+5 X 10 = 50
+-------------------------------------------------------------
+//Em do-while
+
+function tabuada(num){
+    let num1 = prompt("Informe o valor da tabuada: ");
+    let num2 = prompt("Informe o tamanho da tabuada: ");
+    let i = 1;
+
+    console.log(`Eis a tabuada de ${num1} até ${num2}: `)
+
+    do{
+        console.log(`${num1} X ${i} = ${num1 * i}`);
+        i++
+    }while(i <= num2)
+}
+
+let num;
+
+tabuada(num);
+Eis a tabuada de 5 até 10: 
+5 X 1 = 5
+5 X 2 = 10
+5 X 3 = 15
+5 X 4 = 20
+5 X 5 = 25
+5 X 6 = 30
+5 X 7 = 35
+5 X 8 = 40
+5 X 9 = 45
+5 X 10 = 50
