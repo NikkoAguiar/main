@@ -1,0 +1,17 @@
+function fatorial(num){
+    let cont = 1;
+    
+    for(let i = 1; i <= num; i++){
+        cont *= i;
+        console.log(`.${i}`);
+    }
+    console.log(`= ${cont}`);
+}
+let num = prompt("Informe um número: ");
+fatorial(num);
+.1
+.2
+.3
+.4
+.5
+= 120
