@@ -71,3 +71,66 @@ if(media >= 7 && media < 10){
     alert(`${media.toFixed(1)}: Aprovado com Distinção`);
 }
 ----------------------------------------------------------------------
+6.
+let num1, num2, num3, cont1, cont2, cont3;
+num1 = (prompt("Informe o 1º número:"));
+num2 = (prompt("Informe o 2º número:"));
+num3 = (prompt("Informe o 3º número:"));
+cont1 = isNaN(num1);
+cont2 = isNaN(num2);
+cont3 = isNaN(num3);
+    
+while(cont1 == true && cont2 == true && cont3 == true){
+    alert("Tente novamente.");
+    num1 = (prompt("Informe o 1º número:"));
+    num2 = (prompt("Informe o 2º número:"));
+    num3 = (prompt("Informe o 3º número:"));
+    cont1 = isNaN(num1);
+    cont2 = isNaN(num2);
+    cont3 = isNaN(num3);
+}
+   
+if(num1 > num2 && num1 > num3){
+    console.log(`O maior valor é ${num1}`);
+}if(num2 > num1 && num2 > num3){
+    console.log(`O maior valor é ${num2}`);
+}if(num3 > num2 && num3 > num2){
+    console.log(`O maior valor é ${num3}`);
+}else{
+    console.log("Valor inválido!");
+}
+----------------------------------------------------------------------
+7.
+let num1, num2, num3, cont1, cont2, cont3;
+num1 = (prompt("Informe o 1º número:"));
+num2 = (prompt("Informe o 2º número:"));
+num3 = (prompt("Informe o 3º número:"));
+cont1 = isNaN(num1);
+cont2 = isNaN(num2);
+cont3 = isNaN(num3);
+    
+while(cont1 == true && cont2 == true && cont3 == true){
+    alert("Tente novamente.");
+    num1 = (prompt("Informe o 1º número:"));
+    num2 = (prompt("Informe o 2º número:"));
+    num3 = (prompt("Informe o 3º número:"));
+    cont1 = isNaN(num1);
+    cont2 = isNaN(num2);
+    cont3 = isNaN(num3);
+}
+    
+    
+if(num1 > num2 && num1 > num3 && num2 > num3){
+    console.log(`O valor ${num1} é o maior e o valor ${num3} o menor`);
+}else if(num1 > num2 && num1 > num3 && num3 > num2){
+    console.log(`O valor ${num1} é o maior e o valor ${num2} o menor`);
+}else if(num2 > num1 && num2 > num3 && num1 > num3){
+    console.log(`O valor ${num2} é o maior e o valor ${num3} o menor`);
+}else if(num2 > num1 && num2 > num3 && num3 > num1){
+    console.log(`O valor ${num2} é o maior e o valor ${num1} o menor`);
+}else if(num3 > num2 && num3 > num1 && num2 > num1){
+    console.log(`O valor ${num3} é o maior e o valor ${num1} o menor`);
+}else if(num3 > num2 && num3 > num1 && num1 > num2){
+    console.log(`O valor ${num3} é o maior e o valor ${num2} o menor`);
+}
+----------------------------------------------------------------------
