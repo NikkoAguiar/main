@@ -163,18 +163,18 @@ if(num1 < num2 && num1 < num3){
 ----------------------------------------------------------------------
 9.
 let num1, num2, num3, cont1, cont2, cont3;
-num1 = (prompt("Informe o 1º número:"));
-num2 = (prompt("Informe o 2º número:"));
-num3 = (prompt("Informe o 3º número:"));
+num1 = parseInt(prompt("Informe o 1º número:"));
+num2 = parseInt(prompt("Informe o 2º número:"));
+num3 = parseInt(prompt("Informe o 3º número:"));
 cont1 = isNaN(num1);
 cont2 = isNaN(num2);
 cont3 = isNaN(num3);
     
-while(cont1 == true && cont2 == true && cont3 == true){
+while(cont1 === true || cont2 === true || cont3 === true){
     alert("Tente novamente.");
-    num1 = (prompt("Informe o 1º número:"));
-    num2 = (prompt("Informe o 2º número:"));
-    num3 = (prompt("Informe o 3º número:"));
+    num1 = parseInt(prompt("Informe o 1º número:"));
+    num2 = parseInt(prompt("Informe o 2º número:"));
+    num3 = parseInt(prompt("Informe o 3º número:"));
     cont1 = isNaN(num1);
     cont2 = isNaN(num2);
     cont3 = isNaN(num3);
@@ -192,5 +192,36 @@ if(num1 > num2 && num1 > num3 && num2 > num3){
     console.log(`${num2}, ${num1}, ${num3}`);
 }else if(num3 > num1 && num3 > num2 && num2 > num1){
     console.log(`${num1}, ${num2}, ${num3}`);
+}
+----------------------------------------------------------------------
+10.
+let turno;
+turno = prompt("Informe o turno em que você estuda(M - Matutino, V - Vespertino, N - Noturno):");
+
+if(turno == "M" || turno == "m"){
+    alert("Bom dia!");
+}else if(turno == "V" || turno == "v"){
+    alert("Boa tarde!");
+}else if(turno == "N" || turno == "n"){
+    alert("Boa noite!");
+}else{
+    alert("Valor inválido!!");
+}
+----------------------------------------------------------------------
+11.
+let salario = parseInt(prompt("Qual seu salário?"));
+
+if(salario <=280){
+    salario = salario * 1.20
+    alert(`Seu salário subiu para R$${salario}.`);
+}else if(salario > 280 && salario <= 700){
+    salario = salario * 1.15
+    alert(`Seu salário subiu para R$${salario}.`);
+}else if(salario > 700 && salario < 1500){
+    salario = salario * 1.10
+    alert(`Seu salário subiu para R$${salario}.`);
+}else if(salario >= 1500){
+    salario = salario * 1.05
+    alert(`Seu salário subiu para R$${salario}.`);
 }
 ----------------------------------------------------------------------
