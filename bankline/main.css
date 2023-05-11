@@ -58,3 +58,12 @@ input.error{
     border-color: red;
     outline: red;
 }
+
+.mensagem_erro_numero{
+    font-size: 12px;
+    padding: 8px;
+    background-color: red;
+    color: aliceblue;
+    margin-bottom: 8px;
+    display: none;
+}
