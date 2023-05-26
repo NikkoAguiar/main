@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    font-size: 32px;
+}
+
+.elementos{
+    background-color: brown;
+    width: 420px;
+    height: 420px;
+}
+
+img{
+    /* width: 50%; */
+    /* height: 50em; */
+    /* width: 75vw; */
+    height: 45vh;
+}
