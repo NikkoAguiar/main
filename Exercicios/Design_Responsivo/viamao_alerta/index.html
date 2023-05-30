@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Viamão Alerta</title>
+        <link rel="stylesheet" href="./main.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <h1>Viamão Alerta</h1>
+                <form>
+                    <input type="search" placeholder="Encontre no site"/>
+                    <button type="submit">Pesquisar</button>
+                </form>
+            </div>
+            <div class="btn_menu">
+                <button type="button">Abrir menu</button>
+            </div>
+            <nav class="container">
+                <ul class="menu">
+                    <li>
+                        Esportes
+                        <ul class="submenu">
+                            <li>
+                                <a href="#">Futebol</a>
+                            </li>
+                            <li>
+                                <a href="#">Basquete</a>
+                            </li>
+                            <li>
+                                <a href="#">Volei</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        Economia
+                        <ul class="submenu">
+                            <li>
+                                <a href="#">Bolsa de valores</a>
+                            </li>
+                            <li>
+                                <a href="#">Imposto de renda</a>
+                            </li>
+                            <li>
+                                <a href="#">Crypto</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <div class="clear"></div>
+            </nav>
+        </header>
+        <div class="container conteudo">
+            <main>
+                <section class="destaque">
+                    <h2>Em destaque</h2>
+                    <div class="noticias">
+                        <a href="#">
+                            <img src="https://via.placeholder.com/320x320"/>
+                            <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex quaerat aliquid ab similique commodi quisquam corrupti officiis obcaecati saepe ea blanditiis deleniti in quos illo, suscipit sapiente nam laboriosam fugit?</h3>
+                        </a>
+                    </div>
+                </section>
+                <section>
+                    <h2>Últimas notícias</h2>
+                    <div class="noticias">
+                        <article class="noticia">
+                            <a href="#">
+                                <img src="https://via.placeholder.com/320x320"/>
+                                <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam reprehenderit dolor laborum repellendus autem illo, laboriosam sed sapiente! Voluptatibus eveniet, similique expedita rem libero amet quo voluptatem deleniti enim pariatur?</h3>
+                            </a>
+                        </article>
+                        <article class="noticia">
+                            <a href="#">
+                                <img src="https://via.placeholder.com/320x320"/>
+                                <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, enim provident ipsa pariatur reprehenderit eius, minus quia porro velit minima fugit, delectus temporibus facilis maxime rerum sit nam labore eveniet.</h3>
+                            </a>
+                        </article>
+                        <article class="noticia">
+                            <a href="#">
+                                <img src="https://via.placeholder.com/320x320"/>
+                                <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque aliquam quidem quod praesentium? At maiores inventore delectus porro? Cum quia deserunt ex? Dolores, inventore tenetur magni odio et eaque quisquam!</h3>
+                            </a>
+                        </article>
+                        <article class="noticia">
+                            <a href="#">
+                                <img src="https://via.placeholder.com/320x320"/>
+                                <h3>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate iste sequi expedita numquam quos voluptatum molestiae debitis facilis accusantium exercitationem. Nesciunt culpa nulla maxime dolorum labore, reiciendis neque temporibus consectetur.</h3>
+                            </a>
+                        </article>
+                    </div>
+                </section>
+            </main>
+            <aside>
+                <section class="novidades">
+                    <h2>Novidades</h2>
+                    <atricle class="noticia">
+                        <a href="#">
+                            <img src="https://via.placeholder.com/320x320"/>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        </a>
+                    </atricle>
+                    <atricle class="noticia">
+                        <a href="#">
+                            <img src="https://via.placeholder.com/320x320"/>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        </a>
+                    </atricle>
+                    <atricle class="noticia">
+                        <a href="#">
+                            <img src="https://via.placeholder.com/320x320"/>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        </a>
+                    </atricle>
+                </section>
+            </aside>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+        <script>
+            $(document).ready(function(){
+                $('.btn_menu').click(function(){
+                    $('.menu').slideToggle();
+                })
+            })
+        </script>
+    </body>
+</html>
